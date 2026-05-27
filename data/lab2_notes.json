@@ -1,0 +1,86 @@
+[
+  {
+    "id": "N01",
+    "text": "Mr. A, 64, admitted with an acute non-ST-elevation myocardial infarction. Underwent coronary angiography with stenting of the right coronary artery; recovery uncomplicated. Discharged on aspirin, ticagrelor, atorvastatin, bisoprolol and ramipril. Cardiac rehabilitation referral made. To be reviewed in the cardiology clinic in six weeks. GP to monitor blood pressure and renal function.",
+    "gold_medications": ["aspirin", "ticagrelor", "atorvastatin", "bisoprolol", "ramipril"],
+    "gold_diagnoses": ["non-ST-elevation myocardial infarction"],
+    "gold_classification": "follow-up"
+  },
+  {
+    "id": "N02",
+    "text": "Ms. B, 41, admitted with community-acquired pneumonia. Treated with intravenous co-amoxiclav, switched to oral after 48 hours. Afebrile and clinically improved by day three; chest X-ray showed resolving consolidation. Discharged to complete a five-day course of oral amoxicillin. Advised to see her GP only if symptoms recur. No routine follow-up required.",
+    "gold_medications": ["co-amoxiclav", "amoxicillin"],
+    "gold_diagnoses": ["community-acquired pneumonia"],
+    "gold_classification": "routine"
+  },
+  {
+    "id": "N03",
+    "text": "Mr. C, 58, reviewed for management of type 2 diabetes mellitus. HbA1c elevated at 8.6%. Metformin dose increased and empagliflozin added. Dietary advice reinforced. Continues on amlodipine for hypertension. Routine diabetic review with the practice nurse in three months.",
+    "gold_medications": ["metformin", "empagliflozin", "amlodipine"],
+    "gold_diagnoses": ["type 2 diabetes mellitus", "hypertension"],
+    "gold_classification": "routine"
+  },
+  {
+    "id": "N04",
+    "text": "Mrs. D, 79, admitted following a fall with a fractured neck of femur. Underwent hemiarthroplasty; postoperative recovery satisfactory with physiotherapy input. Discharged on paracetamol, codeine and enoxaparin for thromboprophylaxis. Outpatient orthopaedic review in six weeks. Falls assessment arranged.",
+    "gold_medications": ["paracetamol", "codeine", "enoxaparin"],
+    "gold_diagnoses": ["fractured neck of femur"],
+    "gold_classification": "follow-up"
+  },
+  {
+    "id": "N05",
+    "text": "Mr. E, 70, admitted with worsening shortness of breath and leg swelling, diagnosed with an acute exacerbation of heart failure. Despite intravenous furosemide, oxygen requirements increased and troponin rose. Cardiology review requested urgently and transfer to the coronary care unit arranged. Family informed.",
+    "gold_medications": ["furosemide"],
+    "gold_diagnoses": ["acute exacerbation of heart failure"],
+    "gold_classification": "urgent"
+  },
+  {
+    "id": "N06",
+    "text": "Ms. F, 33, seen following an episode of transient dizziness. Examination and basic investigations were unremarkable and symptoms had resolved by the time of review. Discharged home. Further follow-up to be determined pending the results of outstanding tests.",
+    "gold_medications": [],
+    "gold_diagnoses": ["transient dizziness"],
+    "gold_classification": "uncertain"
+  },
+  {
+    "id": "N07",
+    "text": "Mr. G, 49, admitted with acute gastroenteritis and mild dehydration. Treated with intravenous fluids and oral rehydration; symptoms settled within 24 hours. Discharged with advice on hydration. No medication required on discharge. GP follow-up only if symptoms persist.",
+    "gold_medications": [],
+    "gold_diagnoses": ["acute gastroenteritis", "dehydration"],
+    "gold_classification": "routine"
+  },
+  {
+    "id": "N08",
+    "text": "Mrs. H, 68, admitted with an exacerbation of chronic obstructive pulmonary disease. Treated with nebulised salbutamol and ipratropium, oral prednisolone and a course of doxycycline. Improved with treatment. Discharged on her usual inhalers and a reducing course of prednisolone. Respiratory clinic follow-up in four weeks.",
+    "gold_medications": ["salbutamol", "ipratropium", "prednisolone", "doxycycline"],
+    "gold_diagnoses": ["exacerbation of chronic obstructive pulmonary disease"],
+    "gold_classification": "follow-up"
+  },
+  {
+    "id": "N09",
+    "text": "Mr. I, 27, admitted following an episode of acute anxiety with panic symptoms. Assessed by the liaison psychiatry team. Commenced on sertraline and given information on talking therapies. Discharged with a referral to community mental health services for follow-up within two weeks.",
+    "gold_medications": ["sertraline"],
+    "gold_diagnoses": ["acute anxiety"],
+    "gold_classification": "follow-up"
+  },
+  {
+    "id": "N10",
+    "text": "Mrs. J, 75, admitted from a nursing home with fever, confusion and low blood pressure, diagnosed with urosepsis. Started on intravenous broad-spectrum antibiotics and fluid resuscitation. Lactate remained elevated and she was referred urgently to the intensive care unit for ongoing management.",
+    "gold_medications": ["broad-spectrum antibiotics"],
+    "gold_diagnoses": ["urosepsis"],
+    "gold_classification": "urgent"
+  },
+  {
+    "id": "N11",
+    "text": "Mr. K, 52, treated for cellulitis of the left lower leg. Responded well to intravenous flucloxacillin, switched to oral, with marked improvement in erythema and swelling. Discharged to complete a seven-day oral course of flucloxacillin. Advised to return if spreading redness or fever. Routine GP follow-up.",
+    "gold_medications": ["flucloxacillin"],
+    "gold_diagnoses": ["cellulitis"],
+    "gold_classification": "routine"
+  },
+  {
+    "id": "N12",
+    "text": "Mrs. L, 71, admitted with transient left-sided weakness lasting one hour, fully resolved, diagnosed with a transient ischaemic attack. Commenced on clopidogrel and atorvastatin. Carotid imaging arranged. To be seen in the TIA clinic within one week.",
+    "gold_medications": ["clopidogrel", "atorvastatin"],
+    "gold_diagnoses": ["transient ischaemic attack"],
+    "gold_classification": "follow-up"
+  }
+]

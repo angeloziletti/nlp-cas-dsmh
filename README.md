@@ -1,12 +1,16 @@
-# NLP & LLMs in Healthcare — Course Materials
+# nlp-cas-dsmh
 
-Hands-on notebooks for **Module M4: NLP & LLMs in Healthcare** (CAS DSMH).
+Hands-on Jupyter notebooks on tokenization, embeddings, semantic search, prompting, and RAG for clinical text.
 
 ## Notebooks
 
 | Notebook | Topic | Open |
 |---|---|---|
+| `notebooks/lab0_setup.ipynb` | Setup — create and store your Gemini API key (run this first) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/angeloziletti/nlp-cas-dsmh/blob/main/notebooks/lab0_setup.ipynb) |
 | `notebooks/lab1_tokenization_embeddings.ipynb` | Tokenization, embeddings, semantic search, context | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/angeloziletti/nlp-cas-dsmh/blob/main/notebooks/lab1_tokenization_embeddings.ipynb) |
+| `notebooks/lab2_prompting_clinical_text.ipynb` | Prompting a language model for clinical text (Gemini API) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/angeloziletti/nlp-cas-dsmh/blob/main/notebooks/lab2_prompting_clinical_text.ipynb) |
+| `notebooks/lab3_rag.ipynb` | Building a Retrieval-Augmented Generation (RAG) system (Gemini API) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/angeloziletti/nlp-cas-dsmh/blob/main/notebooks/lab3_rag.ipynb) |
+| `notebooks/lab4_agent.ipynb` | Building a healthcare agent (Gemini API + SQLite tools) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/angeloziletti/nlp-cas-dsmh/blob/main/notebooks/lab4_agent.ipynb) |
 
 ## How to run
 
@@ -45,6 +49,22 @@ jupyter notebook notebooks/lab1_tokenization_embeddings.ipynb
 ```
 
 First run downloads ~500 MB of model weights (PubMedBERT + BERT). After that, everything is cached locally.
+
+### Gemini API key (Labs 0, 2, 3, 4)
+
+Lab 0 walks you through creating the key; labs 2, 3, and 4 call the Gemini API and need it. Set it as an environment variable *before* launching Jupyter:
+
+```powershell
+# Windows PowerShell
+$env:GEMINI_API_KEY = "your-key-here"
+```
+
+```bash
+# macOS / Linux
+export GEMINI_API_KEY=your-key-here
+```
+
+In Colab, store it as a Secret named `GEMINI_API_KEY` instead (the 🔑 icon, with *Notebook access* on). Lab 1 needs no key.
 
 ## Data
 

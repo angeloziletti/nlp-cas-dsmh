@@ -7,3 +7,4 @@ ipykernel
 torch>=2.0
 transformers>=4.40
 sentence-transformers>=2.7
+google-genai>=0.3
