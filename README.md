@@ -52,19 +52,18 @@ First run downloads ~500 MB of model weights (PubMedBERT + BERT). After that, ev
 
 ### Gemini API key (Labs 0, 2, 3, 4)
 
-Lab 0 walks you through creating the key; labs 2, 3, and 4 call the Gemini API and need it. Set it as an environment variable *before* launching Jupyter:
+Lab 0 walks you through creating the key; labs 2, 3, and 4 call the Gemini API and need it. Lab 1 needs no key.
 
-```powershell
-# Windows PowerShell
-$env:GEMINI_API_KEY = "your-key-here"
-```
+**Running locally — `.env` file (recommended):**
 
 ```bash
-# macOS / Linux
-export GEMINI_API_KEY=your-key-here
+cp .env.example .env
+# then edit .env and paste your real key after the =
 ```
 
-In Colab, store it as a Secret named `GEMINI_API_KEY` instead (the 🔑 icon, with *Notebook access* on). Lab 1 needs no key.
+`.env` is gitignored, so the key never leaves your machine. The setup cells auto-load it via `python-dotenv`. An exported `GEMINI_API_KEY` env var also works and takes precedence if both are set.
+
+**In Colab:** store it as a Secret named `GEMINI_API_KEY` (the 🔑 icon, with *Notebook access* on) — see Lab 0 for the walkthrough.
 
 ## Data
 
