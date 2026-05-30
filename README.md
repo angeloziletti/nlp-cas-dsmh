@@ -31,6 +31,7 @@ git clone https://github.com/angeloziletti/nlp-cas-dsmh.git
 cd nlp-cas-dsmh
 conda env create -f environment.yml
 conda activate nlp-cas-dsmh
+python -m ipykernel install --user --name nlp-cas-dsmh --display-name "Python (nlp-cas-dsmh)"
 jupyter notebook notebooks/lab1_tokenization_embeddings.ipynb
 ```
 
@@ -45,10 +46,13 @@ python -m venv .venv
 # macOS/Linux:
 source .venv/bin/activate
 pip install -r requirements.txt
+python -m ipykernel install --user --name nlp-cas-dsmh --display-name "Python (nlp-cas-dsmh)"
 jupyter notebook notebooks/lab1_tokenization_embeddings.ipynb
 ```
 
 First run downloads ~500 MB of model weights (PubMedBERT + BERT). After that, everything is cached locally.
+
+> **VSCode users:** if you open a notebook and the kernel picker does not show **"Python (nlp-cas-dsmh)"**, you skipped the `ipykernel install` line above. Run it once and the kernel appears.
 
 ### Gemini API key (Labs 0, 2, 3, 4)
 
