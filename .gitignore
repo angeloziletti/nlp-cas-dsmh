@@ -12,6 +12,9 @@ venv/
 # Jupyter
 .ipynb_checkpoints/
 
+# Lab-generated artifacts (working copies; source files live in data/)
+notebooks/*.db
+
 # OS
 .DS_Store
 Thumbs.db
